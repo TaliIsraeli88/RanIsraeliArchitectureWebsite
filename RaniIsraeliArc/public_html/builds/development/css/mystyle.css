@@ -7,19 +7,19 @@
 }
 
 a:link    {
-    color:black;  
+    color:black;
     text-decoration:none;
 }
 a:visited {
-    color:black;  
+    color:black;
     text-decoration:none;
 }
 a:hover   {
-    color:black;  
+    color:black;
     text-decoration:none;
 }
 a:active  {
-    color:black;  
+    color:black;
     text-decoration:none;
 }
 
@@ -32,7 +32,7 @@ a:active  {
 
 
 .navbar {
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
     border-radius: 0px;
     /*position: fixed;*/
 }
@@ -88,5 +88,3 @@ a:active  {
         transform: translate3d(0, 0, 0);
     }
 }
-
-

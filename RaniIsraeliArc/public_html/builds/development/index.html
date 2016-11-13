@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/mystyle.css">
-        <title>Rani Protfolio Website</title>
-        
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
+    <title>Rani Protfolio Website</title>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:700,400,100,200,300'  type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type='text/css'>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type='text/css'>
+    <link rel="stylesheet" href="css/mystyle.css" type='text/css'>
 
-    </head>
-    <body>
+    <script src="js/lib/angular2/es6-shim.min.js"></script>
+    <script src="js/lib/angular2/system-polyfills.js"></script>
+    <script src="js/lib/angular2/angular2-polyfills.js"></script>
+    <script src="js/lib/angular2/system.src.js"></script>
+    <script src="js/lib/angular2/Rx.js"></script>
+    <script src="js/lib/angular2/angular2.dev.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 
 
-        
-        <nav class="navbar navbar-inverse">
+
+
+
+    <script>
+      System.config({
+        packages: {
+          js: {
+            format: 'register',
+            defaultExtension: 'js'
+          }
+        }
+      });
+      System.import('js/boot')
+        .then(null, console.error.bind(console));
+    </script>
+  </head>
+
+<body>
+    <nav class="navbar navbar-inverse">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
@@ -34,7 +57,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="collapsemenu">
                     <ul class="nav navbar-nav text-navbar">
-                        <li><a href="Projects.html">Projects</a></li>
+                        <li><a href="/projects.html">Projects</a></li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">About</a></li>
                     </ul>
@@ -49,36 +72,19 @@
                 <li data-target="#featured" data-slide-to="1"></li>
                 <li data-target="#featured" data-slide-to="2"></li>
                 <li data-target="#featured" data-slide-to="3"></li>
-                <li data-target="#featured" data-slide-to="4"></li>
-                <li data-target="#featured" data-slide-to="5"></li>
-                <li data-target="#featured" data-slide-to="6"></li>
-                <li data-target="#featured" data-slide-to="7"></li>
-                <li data-target="#featured" data-slide-to="8"></li>
             </ol>
             <div class="carousel-inner">
                 <div class="item bgimage active" >
-                    <img  src="image/index/1.jpg" >
+                    <img  src="images/index/1.jpg" >
                 </div>
                 <div class="item bgimage">
-                    <img src="image/index/2.jpg" alt="Icon">
+                    <img src="images/index/2.jpg" alt="Icon">
                 </div>
                 <div class="item bgimage">
-                    <img  src="image/index/3.jpg" alt="Icon">
+                    <img  src="images/index/5.jpg" alt="Icon">
                 </div>
                 <div class="item bgimage">
-                    <img  src="image/index/4.jpg" alt="Icon">
-                </div>
-                <div class="item bgimage">
-                    <img  src="image/index/5.jpg" alt="Icon">
-                </div>
-                <div class="item bgimage">
-                    <img  src="image/index/6.jpg" alt="Icon">
-                </div>
-                <div class="item bgimage">
-                    <img  src="image/index/7.jpg" alt="Icon">
-                </div>
-                <div class="item bgimage">
-                    <img  src="image/index/8.jpg" alt="Icon">
+                    <img  src="images/index/7.jpg" alt="Icon">
                 </div>
             </div>
 
@@ -90,7 +96,5 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
-
-               
-    </body>
+</body>
 </html>

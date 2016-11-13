@@ -26,12 +26,12 @@ $(function () {
         $item.height($wHeight - 52);
 
     });
-    
+
     $(window).on('load', function () {
         $wHeight = $(window).height();
         $item.height($wHeight - 52);
 
     });
 
-  
+
 });
