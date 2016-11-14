@@ -13,7 +13,6 @@ export class AppComponent {
 
 }
 
-
 var PROJECTS: Projects[] = [
   {
     "name":"Community Center",
