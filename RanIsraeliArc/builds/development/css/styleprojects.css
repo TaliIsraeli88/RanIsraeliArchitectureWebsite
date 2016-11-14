@@ -1,4 +1,8 @@
 
+.pdetails{
+  min-height: 200px;
+}
+
 .lead{
     padding-top: 20px;
     padding-bottom: 20px;
