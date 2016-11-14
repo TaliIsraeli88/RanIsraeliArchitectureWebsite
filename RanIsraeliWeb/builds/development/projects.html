@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <title>Projects</title>
+      <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Lato:700,400,100,200,300'  type='text/css'>
+      <link rel="stylesheet" href="css/style.css" type='text/css'>
+      <link rel="stylesheet" href="css/bootstrap.min.css" type='text/css'>
+      <link rel="stylesheet" href="css/styleprojects.css" type='text/css'>
+
+      <script src="js/lib/angular2/es6-shim.min.js"></script>
+      <script src="js/lib/angular2/system-polyfills.js"></script>
+      <script src="js/lib/angular2/angular2-polyfills.js"></script>
+      <script src="js/lib/angular2/system.src.js"></script>
+      <script src="js/lib/angular2/Rx.js"></script>
+      <script src="js/lib/angular2/angular2.dev.js"></script>
+
+      <script src="js/jquery.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/script.js"></script>
+
+      <script>
+        System.config({
+          packages: {
+            js: {
+              format: 'register',
+              defaultExtension: 'js'
+            }
+          }
+        });
+        System.import('js/boot')
+          .then(null, console.error.bind(console));
+      </script>
+
+
+    </head>
+    <body>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">
+                        Ran Israeli
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="collapsemenu">
+                    <ul class="nav navbar-nav">
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">About</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container content">
+            <div class="row">
+                <section class="col-xs-12">
+                  <my-app></my-app>
+                </section>
+            </div>
+
+        </div>
+
+    </body>
+</html>
