@@ -1,5 +1,4 @@
 
-
 .lead{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -74,7 +73,6 @@ a:active  {
 .about{
     background-color: #E0E0E0;
     margin-top: 15px;
-    /*margin-bottom: 30px;*/
     min-height: 140px;
 }
 
@@ -96,11 +94,17 @@ a:active  {
    filter:none !important;
 }
 
-/*.carousel {
-    border: 2px;
-    border-color: black;
-    border-style: solid;
-}*/
+.carousel {
+    border-right-width: 3px;
+    border-radius: 5px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+
+    border-color: gray;
+    border-style:solid;
+
+}
 
 
 
