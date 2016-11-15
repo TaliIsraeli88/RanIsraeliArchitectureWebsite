@@ -15,7 +15,7 @@ export class AppComponent {
 
 var PROJECTS: Projects[] = [
   {
-    "name":"Community Center gaga",
+    "name":"Community Center",
     "shortname":"center",
     "bio":"In Tel-Aviv, most of the refugees that come to the city are able to stay only in segregated communities on the south edge of the city, without having any relationship with the city's population. The wide, neglected spaces between the row houses of the city's sleepy northern neighborhood was a perfect location to position a community center for refugees so they could have a sense of belonging in the city they live in"
   },
