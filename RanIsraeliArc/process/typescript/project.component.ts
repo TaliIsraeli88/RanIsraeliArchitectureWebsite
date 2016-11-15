@@ -2,7 +2,7 @@ import {Component} from 'angular2/core';
 import {ProjectItemComponent} from './project-item.component';
 
 @Component({
-  selector: 'my-app',
+  selector: 'my-project',
   templateUrl: 'partials/app.html',
   directives: [ProjectItemComponent],
   styleUrls: ['css/styleprojects.css']

@@ -10,35 +10,19 @@
 
         <title>Projects</title>
 
-    </head>
-    <body>
-
-
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <!--<script src="js/scriptprojects.js"></script>-->
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+          $(function(){
+            $("#header").load("header.html");
+          });
+        </script>
 
+    </head>
+    <body>
+      <div id="header"></div>
 
-        <nav class="navbar navbar-inverse">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html" class="navbar-brand">
-                        Ran Israeli
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse" id="collapsemenu">
-                    <ul class="nav navbar-nav">
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">About</a></li>
-                    </ul>
-                </div>
-        </nav>
         <header class="coverimage" style="background-image: url('images/Center/CoverCommunityCenter.jpeg');">
             <div class="desc fix">
                 <p class="desc_content">Tel Aviv Community Center</p>
@@ -64,11 +48,6 @@
                         <div class="carousel-inner">
 
                             <div class="item active">
-                                <div >
-                                    <img src="images/Center/4.jpg" class="img-responsive">
-                                </div>
-                            </div>
-                            <div class="item">
                                 <div >
                                     <img src="images/Center/5.jpg" class="img-responsive">
                                 </div>

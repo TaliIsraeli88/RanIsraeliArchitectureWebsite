@@ -20,6 +20,7 @@
       <script src="js/lib/angular2/angular2.dev.js"></script>
 
       <script src="js/jquery.min.js"></script>
+      <script src="//code.jquery.com/jquery-1.10.2.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/script.js"></script>
 
@@ -36,37 +37,19 @@
           .then(null, console.error.bind(console));
       </script>
 
+      <script>
+        $(function(){
+          $("#header").load("header.html");
+        });
+      </script>
 
     </head>
     <body>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/script.js"></script>
-
-        <nav class="navbar navbar-inverse">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsemenu" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html" class="navbar-brand">
-                        Ran Israeli
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse" id="collapsemenu">
-                    <ul class="nav navbar-nav">
-                        <li><a href="projects.html">Projects</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">About</a></li>
-                    </ul>
-                </div>
-        </nav>
+        <div id="header"></div>
         <div class="container content">
             <div class="row">
                 <section class="col-xs-12">
-                  <my-app></my-app>
+                  <my-project></my-project>
                 </section>
             </div>
 

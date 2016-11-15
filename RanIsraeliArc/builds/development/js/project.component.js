@@ -27,7 +27,7 @@ System.register(['angular2/core', './project-item.component'], function(exports_
                 }
                 AppComponent = __decorate([
                     core_1.Component({
-                        selector: 'my-app',
+                        selector: 'my-project',
                         templateUrl: 'partials/app.html',
                         directives: [project_item_component_1.ProjectItemComponent],
                         styleUrls: ['css/styleprojects.css']
@@ -39,7 +39,7 @@ System.register(['angular2/core', './project-item.component'], function(exports_
             exports_1("AppComponent", AppComponent);
             PROJECTS = [
                 {
-                    "name": "Community Center",
+                    "name": "Community Center gaga",
                     "shortname": "center",
                     "bio": "In Tel-Aviv, most of the refugees that come to the city are able to stay only in segregated communities on the south edge of the city, without having any relationship with the city's population. The wide, neglected spaces between the row houses of the city's sleepy northern neighborhood was a perfect location to position a community center for refugees so they could have a sense of belonging in the city they live in"
                 },
