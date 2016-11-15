@@ -32,6 +32,6 @@ $(function () {
         $item.height($wHeight - 52);
 
     });
-
+    
 
 });
