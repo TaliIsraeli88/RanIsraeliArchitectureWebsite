@@ -7,5 +7,3 @@ System.register([], function(exports_1, context_1) {
         }
     }
 });
-
-//# sourceMappingURL=my-app.js.map

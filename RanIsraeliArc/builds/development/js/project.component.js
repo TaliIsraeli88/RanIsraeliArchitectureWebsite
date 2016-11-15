@@ -27,7 +27,7 @@ System.register(['angular2/core', './project-item.component'], function(exports_
                 }
                 AppComponent = __decorate([
                     core_1.Component({
-                        selector: 'my-app',
+                        selector: 'my-project',
                         templateUrl: 'partials/app.html',
                         directives: [project_item_component_1.ProjectItemComponent],
                         styleUrls: ['css/styleprojects.css']
