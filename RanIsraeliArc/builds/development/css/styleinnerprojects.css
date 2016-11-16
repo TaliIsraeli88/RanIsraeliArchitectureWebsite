@@ -1,11 +1,11 @@
 
 
 .desc{
-    background-color: #000;
+    /*background-color: #000;*/
     bottom: 0;
     color: #fff;
     left: 0;
-    opacity: 0.5;
+    /*opacity: 0.5;*/
     position: absolute;
     width: 100%;
 }
@@ -17,7 +17,10 @@
 
 .desc_content{
     padding-left: 10px;
-    font-size: 20px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: 9d9d9d;
 }
 
 .coverimage {
@@ -29,6 +32,7 @@
 .navbar {
     margin-bottom: 0px;
     border-radius: 0px;
+    z-index: 1;
 }
 
 .left-side{
@@ -72,7 +76,10 @@
     border-style:solid;
 
 }
-
+.carousel-inner{
+  opacity: 1;
+  z-index: 0;
+}
 .carousel-control {
 margin-top: 100px;
 }
@@ -80,4 +87,13 @@ margin-top: 100px;
 .carousel-control:hover,
 .carousel-control:focus {
   color: #999;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
 }
