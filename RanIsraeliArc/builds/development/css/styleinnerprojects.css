@@ -17,9 +17,9 @@
 
 .desc_content{
     padding-left: 10px;
-    font-size: 18px;
+    font-size: 20px;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 8px;
     color: 9d9d9d;
 }
 
@@ -45,20 +45,21 @@
 .about{
     background-color: #E0E0E0;
     margin-top: 15px;
-    min-height: 140px;
+    min-height: 110px;
+
 }
 
 .textrow{
     font-size: 1.25em;
     line-height: 1.65em;
     color: rgb(128, 128, 128);
-    margin-top: 10px;
-    font-family: "Helvetica Neue";
+    margin-top: 3px;
+    font-family: Dosis;
 }
 
 .textcol{
     font-size: 1.15em;
-    font-family: "Helvetica Neue";
+    font-family: Dosis;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -96,4 +97,9 @@ margin-top: 100px;
 
 .affix + .container-fluid {
     padding-top: 70px;
+}
+
+.lead{
+  font-family: Dosis;
+  font-size: 18px;
 }
