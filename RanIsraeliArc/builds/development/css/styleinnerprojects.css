@@ -1,11 +1,11 @@
 
 
 .desc{
-    background-color: #000;
+    /*background-color: #000;*/
     bottom: 0;
     color: #fff;
     left: 0;
-    opacity: 0.5;
+    /*opacity: 0.5;*/
     position: absolute;
     width: 100%;
 }
@@ -18,6 +18,9 @@
 .desc_content{
     padding-left: 10px;
     font-size: 20px;
+    margin-left: 20px;
+    margin-top: 8px;
+    color: 9d9d9d;
 }
 
 .coverimage {
@@ -29,6 +32,7 @@
 .navbar {
     margin-bottom: 0px;
     border-radius: 0px;
+    z-index: 1;
 }
 
 .left-side{
@@ -41,20 +45,21 @@
 .about{
     background-color: #E0E0E0;
     margin-top: 15px;
-    min-height: 140px;
+    min-height: 110px;
+
 }
 
 .textrow{
     font-size: 1.25em;
     line-height: 1.65em;
     color: rgb(128, 128, 128);
-    margin-top: 10px;
-    font-family: "Helvetica Neue";
+    margin-top: 3px;
+    font-family: Dosis;
 }
 
 .textcol{
     font-size: 1.15em;
-    font-family: "Helvetica Neue";
+    font-family: Dosis;
 }
 
 .carousel-control.left, .carousel-control.right {
@@ -72,7 +77,10 @@
     border-style:solid;
 
 }
-
+.carousel-inner{
+  opacity: 1;
+  z-index: 0;
+}
 .carousel-control {
 margin-top: 100px;
 }
@@ -80,4 +88,18 @@ margin-top: 100px;
 .carousel-control:hover,
 .carousel-control:focus {
   color: #999;
+}
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.lead{
+  font-family: Dosis;
+  font-size: 18px;
 }

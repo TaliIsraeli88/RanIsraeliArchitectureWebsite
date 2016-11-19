@@ -1,3 +1,8 @@
+.pdetails{
+  min-height: 200px;
+}
+
+
 a:link    {
     color:black;
     text-decoration:none;
@@ -26,6 +31,10 @@ img:hover{
   filter: alpha(opacity=50);
 }
 
+.navbar {
+    margin-bottom: 0px;
+    border-radius: 0px;
+}
 
 .about{
     background-color: #E0E0E0;
@@ -34,11 +43,4 @@ img:hover{
 }
 .pname {
   margin-top: 0px;
-  font-family: DosisBold;
-}
-
-.pdetails{
-  min-height: 200px;
-  font-family: Dosis;
-  font-size: 16px;
 }
